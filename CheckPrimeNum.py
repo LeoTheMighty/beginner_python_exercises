@@ -9,8 +9,8 @@ def check_prime(num):
     return True
 
 
-def get_integer():
-    return int(input("Give me a number: "))
+def get_integer(help_text="Give me a number: "):
+    return int(input(help_text))
 
 
 if check_prime(get_integer()):
